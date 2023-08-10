@@ -40,7 +40,6 @@ RControl::CapsLock
 #x::^x
 #a::^a
 #f::^f
-#z::^z
 #u::^u
 #d::^d
 #i::^i
@@ -48,6 +47,8 @@ RControl::CapsLock
 #k::^k
 #s::^s
 #r::^r
+; Undo is Ctrl-Y on a QWERTZ keyboard, map it to Win-Z (like Cmd-Z on macOS)
+#z::^y
 
 ;------------------------------------------------------------------------------;
 ; Map Win-* combinations to Alt-*
