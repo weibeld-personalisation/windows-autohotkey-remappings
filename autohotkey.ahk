@@ -69,6 +69,7 @@ RControl::CapsLock
 !l::SendEvent "#l"  ; Lock screen
 !i::SendEvent "#i"  ; Open Settings
 !m::SendEvent "#m"  ; Minimise all windows
+!a::SendEvent "#a"  ; Toggle Action Centre
 
 ; TODO: make the below feature work.Currently, it provokes undeterministic
 ; behaviour of the Task Switcher and Task View combinations.
